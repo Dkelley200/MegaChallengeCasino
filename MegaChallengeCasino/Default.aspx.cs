@@ -31,6 +31,7 @@ namespace MegaChallengeCasino
             int winnings = imageSet(bet);
             showSpinValue(bet, winnings);
             adjustMoney(bet,winnings);
+            displayBalance();
         }
 
         private void displayWarningBet()
